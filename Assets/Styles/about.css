@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary-color: #0c510d;
+  --accent-color: #3f6908;
+  --text-color: #333333;
+  --sky-blue: #6ec1e4;
+  --deep-blue: #1b4965;
+  --stone-grey: #6b705c;
+  --sandy-beige: #e9d8a6;
+  --light: #ebffd1;
+  --hover-green: #11a350;
+  --off-white: #faf8f5;
+  --gray: #f6f8f7;
+  --gradient: Linear-gradient(
+    var(--accent-color),
+    var(--hover-green),
+    var(--primary-color)
+  );
+  --dark: black;
+}
+
+/* General */
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Header Section */
+header {
+  width: inherit;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: var(--off-white);
+}
+
+.header-wrap {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-name {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  background: var(--gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.nav-page-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 3rem;
+}
+
+.nav-page-wrap ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+}
+
+li a {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li a:hover {
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.actions a {
+  font-size: 20px;
+  color: var(--text-color);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+#partner-btn {
+  color: var(--primary-color);
+}
+
+#partner-btn:hover {
+  color: var(--stone-greygit);
+}
+
+#cta {
+  color: var(--off-white);
+  padding: 1rem 2rem;
+  background-color: var(--primary-color);
+  border-radius: 20px;
+}
