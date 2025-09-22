@@ -2,9 +2,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -33,6 +33,11 @@ html {
 a {
   cursor: pointer;
   text-decoration: none;
+}
+
+.page-wrap {
+  margin: auto;
+  background-color: var(--off-white);
 }
 
 /* Header Section */
@@ -64,7 +69,7 @@ header {
 }
 
 .brand-name {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 24px;
   font-weight: 900;
   background: var(--gradient);
@@ -93,7 +98,6 @@ header {
 li a {
   color: var(--text-color);
   font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 li a:hover {
@@ -110,7 +114,6 @@ li a:hover {
 .actions a {
   font-size: 20px;
   color: var(--text-color);
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #partner-btn {
@@ -126,4 +129,384 @@ li a:hover {
   padding: 1rem 2rem;
   background-color: var(--primary-color);
   border-radius: 20px;
+}
+
+#cta:hover,
+#cta:focus {
+  background-color: var(--hover-green);
+}
+
+/* JOURNEY SECTION  */
+.section-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.journey-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.journey-section h1 {
+  font-size: 52px;
+  color: var(--dark);
+}
+
+.journey-section h3 {
+  color: var(--dark);
+  font-size: 40px;
+  padding: 3rem 0;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.journey-section p {
+  font-size: 20px;
+  color: var(--stone-grey);
+  padding: 2rem 0;
+}
+
+/*MISSION SECTION  */
+.section-2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.mission-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 3rem;
+  width: 90%;
+  margin: auto;
+}
+
+.mission-section h2 {
+  font-weight: 900;
+  font-size: 40px;
+  padding: 3rem 0;
+}
+
+.mission-statements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  height: 500px;
+  padding: 3rem 0;
+}
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+  gap: 2rem;
+  text-align: right;
+}
+
+.flex-1 h3,
+.statement-3 h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primary-color);
+  padding: 2rem 0;
+}
+
+.statement-3 {
+  text-align: left;
+}
+
+.mission-statements p {
+  font-size: 18px;
+  color: var(--stone-grey);
+}
+
+/* VISIONARIES SECTION */
+.section-3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.visionaries-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.visionaries-section h2 {
+  font-size: 40px;
+}
+
+.album-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+  width: 70%;
+   text-align: center;
+  padding: 3rem 0;
+}
+
+.visionaries-section img {
+  border-radius: 50%;
+}
+
+.album-wrap p {
+  font-weight: 800;
+}
+
+.skill {
+  display: block;
+  color: var(--primary-color);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.album-1, 
+.album-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+/* FRAMEWORKS SECTION */
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+
+.framework-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+
+.section-4 h2 {
+  font-size: 40px;
+  padding: 3rem 0;
+}
+
+.section-4 p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--stone-grey);
+  padding-bottom: 4rem;
+}
+
+.framework-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+
+.framework {
+  display: flex;
+  flex-direction: column;
+  justify-content: space;
+  gap: 3rem;
+}
+
+.framework h3 {
+  color: var(--primary-color);
+  text-align: left;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.framework img {
+  width: 35px;
+  height: 35px;
+}
+
+.framework p {
+  font-size: 16px;
+  text-align: left;
+}
+
+/* FAQs SECTION */
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.faq-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  max-width: 1400px;
+}
+
+.faq-section h2 {
+  font-size: 40px;
+  padding: 3rem 0;
+}
+
+.faq-wrap {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.hide-icon {
+  display: none;
+}
+
+.question p {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+.faqs small {
+  display: none;
+  font-size: 22px;
+  color: var(--accent-color);
+  padding: 2rem 0;
+}
+
+
+/* FOOTER SECTION */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+  background-color: var(--primary-color);
+}
+
+.footer-wrap {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+  place-items: center;
+  padding: 3rem 0;
+  max-width: 1400px;
+  color: var(--off-white);
+}
+
+.footer-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-group p {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-group-header {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#footer-group-1 {
+  grid-column: span 2;
+  place-self: start;
+}
+
+#footer-brandname {
+  font-weight: 900;
+  font-size: 30px;
+}
+
+#foot-logo {
+  height: 70px;
+  width: 70px;
+}
+
+#company-mail {
+  color: inherit;
+}
+
+#right {
+  background-color: var(--primary-color);
+  text-align: center;
+  width: 100%;
+  color: var(--off-white);
+  padding: 2rem 0;
+}
+
+hr {
+  width: 90%;
+  margin: 1rem 0;
+}
+
+footer a {
+  color: var(--off-white);
+}
+
+footer a:visited {
+  color: var(--off-white);
 }
