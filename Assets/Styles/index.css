@@ -58,6 +58,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 1400px;
 }
 
 .brand {
@@ -65,9 +66,6 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-}
-
-#brandlogo {
 }
 
 .brand-name {
@@ -213,6 +211,7 @@ li a:hover {
 .hero-wrap {
   display: flex;
   width: 90%;
+  max-width: 1400px;
   margin: auto;
   justify-content: center;
   gap: 2rem;
@@ -272,6 +271,7 @@ li a:hover {
   align-items: center;
   flex-direction: column;
   width: 90%;
+  max-width: 1400px;
   padding: 5rem 0;
 }
 
@@ -431,6 +431,7 @@ li a:hover {
 
 .hero-5-wrap {
   width: 90%;
+  max-width: 1400px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -489,50 +490,6 @@ figcaption p {
   text-align: left;
   padding-bottom: 1rem;
 }
-
-/* STORIES FROM SATISFIED TRAVELLERS
-.stories-section {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--off-white);
-}
-
-.stories-wrap {
-  width: 85%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.stories-wrap h1 {
-  font-size: 50px;
-  padding: 3rem;
-  font-weight: 900;
-}
-
-.stories-wrap p {
-  color: var(--text-color);
-  font-size: 22px;
-  text-align: center;
-}
-
-
-.storyline-wrap {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  place-items: center;
-  padding: 3rem 0;
-}
-
-.individual-story p {
-  text-align: left;
-} */
 
 .join-cta {
   width: 100%;
@@ -646,6 +603,10 @@ footer {
   width: 70px;
 }
 
+.footer a {
+  
+}
+
 #company-mail {
   color: inherit;
 }
@@ -665,4 +626,20 @@ hr {
 
 footer a:visited {
   color: var(--off-white);
+}
+
+@media screen and (max-width: 1355px) {
+  li a {
+    font-size: 18px;
+  }
+
+.main-hero-text h1 {
+  font-size: 45px;
+}
+
+  h2 {
+    font-size: 30px;
+  }
+
+
 }
